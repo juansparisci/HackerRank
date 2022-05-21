@@ -31,33 +31,23 @@ class Result
     public static void countApplesAndOranges(int s, int t, int a, int b, List<int> apples, List<int> oranges)
     {
         int applesInSamsHouse = 0, orangesInSamsHouse = 0;
-        Console.WriteLine(countApples(s,t,a,apples));
-        Console.WriteLine(countOranges(s,t,b,oranges));
+        Console.WriteLine(CountFruitsInSamsHouse(s,t,a,apples));
+        Console.WriteLine(CountFruitsInSamsHouse(s,t,b,oranges));
         
     }
 
-    private static int countApples(int s, int t, int a, List<int> apples)
+    private static int CountFruitsInSamsHouse(int s, int t, int plantLocation, List<int> fruits)
     {
         int result = 0;
 
-        apples.ForEach((appleDistance) =>
+        fruits.ForEach((fruitDistance) =>
         {
-            int appleLocation = a + appleDistance;
-            result += (appleLocation >= s && appleLocation <= t) ? 1 : 0;
+            int fruitLocation = plantLocation + fruitDistance;
+            result += (fruitLocation >= s && fruitLocation <= t) ? 1 : 0;
         });
         return result;
     }
-    private static int countOranges(int s, int t, int b, List<int> oranges)
-    {
-        int result = 0;
-
-        oranges.ForEach((orangeDistance) =>
-        {
-            int orangeLocation = b + orangeDistance;
-            result += (orangeLocation >= s && orangeLocation <= t) ? 1 : 0;
-        });
-        return result;
-    }
+  
 
 }
 
