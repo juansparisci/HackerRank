@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AppleAndOrange\AppleAndOrange.csproj" />
+      <ProjectReference Include="..\GradingStudents\GradingStudents.csproj" />
+      <ProjectReference Include="..\NumberLineJumps\NumberLineJumps.csproj" />
+      <ProjectReference Include="..\QueensAttack2\QueensAttack2.csproj" />
+      <ProjectReference Include="..\SuperReducedString\SuperReducedString.csproj" />
+    </ItemGroup>
+
+</Project>
