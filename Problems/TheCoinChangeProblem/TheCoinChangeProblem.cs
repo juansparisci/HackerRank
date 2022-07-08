@@ -3,26 +3,18 @@
 public class TheCoinChangeProblem
 {
     private static Dictionary<Tuple<long, long>, long>? _calculatedWays;
+    
 
-    /*
-     * Complete the 'getWays' function below.
-     *
-     * The function is expected to return a LONG_INTEGER.
-     * The function accepts following parameters:
-     *  1. INTEGER n
-     *  2. LONG_INTEGER_ARRAY c
-     */
-
-    public static long GetWays(int n, List<long> c)
+    public static ulong GetWays(int n, List<long> c)
     {
         _calculatedWays = new Dictionary<Tuple<long, long>, long>();
-        long result = 0;
+        ulong result = 0;
         var coinsOrdered = c.Where(w => w <= n).OrderByDescending(x => x).ToArray();
 
         for (var i = 0; i < coinsOrdered.Length; i++)
         {
             var coin = coinsOrdered[i];
-            result += WaysToGetChange(n, coin, i, coinsOrdered);
+            result += (ulong)WaysToGetChange(n, coin, i, coinsOrdered);
         }
 
 
