@@ -1,4 +1,4 @@
-﻿namespace Problems.AppleAndOrange;
+﻿namespace Problems.Problem_Solving.Algorithms.Implementation;
 
 public class AppleAndOrange
 {

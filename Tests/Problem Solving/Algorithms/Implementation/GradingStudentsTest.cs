@@ -1,9 +1,9 @@
 using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
-using Problems.GradingStudents;
+using Problems.Problem_Solving.Algorithms.Implementation;
 
-namespace Tests;
+namespace Tests.Problem_Solving.Algorithms.Implementation;
 
 // https://www.hackerrank.com/challenges/grading/problem
 public class GradingStudentsTest

@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using FluentAssertions;
 using NUnit.Framework;
-using Problems.DiagonalDifference;
+using Problems.Problem_Solving.Algorithms.Warmup;
 
-namespace Tests;
+namespace Tests.Problem_Solving.Algorithms.Warmup;
 // https://www.hackerrank.com/challenges/diagonal-difference/problem
 public class DiagonalDifferenceTest
 {

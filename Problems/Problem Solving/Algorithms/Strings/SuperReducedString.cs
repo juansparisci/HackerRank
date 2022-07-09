@@ -1,11 +1,13 @@
-﻿public class SuperReducedString
+﻿namespace Problems.Problem_Solving.Algorithms.Strings;
+
+public class SuperReducedString
 {
     /*
-     * Complete the 'superReducedString' function below.
-     *
-     * The function is expected to return a STRING.
-     * The function accepts STRING s as parameter.
-     */
+ * Complete the 'superReducedString' function below.
+ *
+ * The function is expected to return a STRING.
+ * The function accepts STRING s as parameter.
+ */
 
     public static string superReducedString(string s)
     {

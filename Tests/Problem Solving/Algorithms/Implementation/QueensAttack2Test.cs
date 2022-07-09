@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using FluentAssertions;
 using NUnit.Framework;
-using Problems.QueensAttack2;
+using Problems.Problem_Solving.Algorithms.Implementation;
 
-namespace Tests;
+namespace Tests.Problem_Solving.Algorithms.Implementation;
 
 // https://www.hackerrank.com/challenges/queens-attack-2/problem
 public class QueensAttack2Test

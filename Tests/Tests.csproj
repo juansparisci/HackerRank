@@ -19,4 +19,8 @@
       <ProjectReference Include="..\Problems\Problems.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Problem Solving\Data Structures" />
+    </ItemGroup>
+
 </Project>

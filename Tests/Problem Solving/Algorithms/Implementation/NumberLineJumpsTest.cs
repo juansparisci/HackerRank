@@ -1,8 +1,8 @@
 using FluentAssertions;
 using NUnit.Framework;
-using Problems.NumberLineJumps;
+using Problems.Problem_Solving.Algorithms.Implementation;
 
-namespace Tests;
+namespace Tests.Problem_Solving.Algorithms.Implementation;
 
 // https://www.hackerrank.com/challenges/kangaroo/problem
 public class NumberLineJumpsTest

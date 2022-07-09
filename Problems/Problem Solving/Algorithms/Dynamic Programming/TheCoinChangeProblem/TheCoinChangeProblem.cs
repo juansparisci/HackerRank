@@ -1,4 +1,4 @@
-﻿namespace Problems.TheCoinChangeProblem;
+﻿namespace Problems.Problem_Solving.Algorithms.Dynamic_Programming.TheCoinChangeProblem;
 
 public class TheCoinChangeProblem
 {

@@ -1,4 +1,4 @@
-﻿namespace Problems.QueensAttack2;
+﻿namespace Problems.Problem_Solving.Algorithms.Implementation;
 
 public class QueensAttack2
 {

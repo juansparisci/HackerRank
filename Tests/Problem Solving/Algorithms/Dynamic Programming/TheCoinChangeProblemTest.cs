@@ -2,11 +2,10 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using FluentAssertions;
-using Microsoft.VisualBasic.CompilerServices;
 using NUnit.Framework;
-using Problems.TheCoinChangeProblem;
+using Problems.Problem_Solving.Algorithms.Dynamic_Programming.TheCoinChangeProblem;
 
-namespace Tests;
+namespace Tests.Problem_Solving.Algorithms.Dynamic_Programming;
 
 // https://www.hackerrank.com/challenges/coin-change/problem
 public class TheCoinChangeProblemTest

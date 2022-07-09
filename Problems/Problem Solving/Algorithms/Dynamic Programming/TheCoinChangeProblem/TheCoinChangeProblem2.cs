@@ -1,5 +1,6 @@
-namespace Problems.TheCoinChangeProblem;
+namespace Problems.Problem_Solving.Algorithms.Dynamic_Programming.TheCoinChangeProblem;
 
+//Better solution. Faster and neater code
 public class TheCoinChangeProblem2
 {
     public static ulong GetWays(int n, List<long> c)

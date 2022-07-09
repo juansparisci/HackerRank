@@ -1,12 +1,12 @@
-using System;
-using System.Collections.Generic;
 using System.Numerics;
 using FluentAssertions;
 using NUnit.Framework;
-using Problems.FibonacciModified;
+using Problems.Problem_Solving.Algorithms.Dynamic_Programming;
+using Problems.Problem_Solving.Algorithms.Dynamic_Programming.FibonacciModified;
 
-namespace Tests;
+namespace Tests.Problem_Solving.Algorithms.Dynamic_Programming;
 
+// https://www.hackerrank.com/challenges/fibonacci-modified/
 public class FibonacciModifiedTest
 {
     [SetUp]
@@ -22,7 +22,7 @@ public class FibonacciModifiedTest
       
            
         
-        var ret = FibonacciModified.fibonacciModified(t1,t2,n);
+        var ret = FibonacciModified2.fibonacciModified(t1,t2,n);
 
         ret.Should().Be(((BigInteger)expectedResult));
     }

@@ -1,7 +1,8 @@
 using FluentAssertions;
 using NUnit.Framework;
+using Problems.Problem_Solving.Algorithms.Strings;
 
-namespace Tests;
+namespace Tests.Problem_Solving.Algorithms.Strings;
 // https://www.hackerrank.com/challenges/reduced-string/problem
 public class SuperReducedStringTest
 {

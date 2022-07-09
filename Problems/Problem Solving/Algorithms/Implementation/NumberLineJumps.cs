@@ -1,4 +1,4 @@
-﻿namespace Problems.NumberLineJumps;
+﻿namespace Problems.Problem_Solving.Algorithms.Implementation;
 
 public class NumberLineJumps
 {

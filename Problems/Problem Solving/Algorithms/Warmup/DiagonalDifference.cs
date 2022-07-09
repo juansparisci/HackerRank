@@ -1,4 +1,4 @@
-namespace Problems.DiagonalDifference;
+namespace Problems.Problem_Solving.Algorithms.Warmup;
 
 public class DiagonalDifference
 {

@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using FluentAssertions;
 using NUnit.Framework;
-using Problems.AppleAndOrange;
+using Problems.Problem_Solving.Algorithms.Implementation;
 
-namespace Tests;
+namespace Tests.Problem_Solving.Algorithms.Implementation;
 
 // https://www.hackerrank.com/challenges/apple-and-orange/problem
 public class AppleAndOrangeTest
