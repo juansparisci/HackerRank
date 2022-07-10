@@ -1,4 +1,4 @@
-namespace Problems.Problem_Solving.Data_Structures.Stack;
+namespace Problems.Problem_Solving.Data_Structures.Stack.LargestRectangle;
 
 public class LargestRectangle
 {

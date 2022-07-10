@@ -2,6 +2,7 @@ using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
 using Problems.Problem_Solving.Data_Structures.Stack;
+using Problems.Problem_Solving.Data_Structures.Stack.LargestRectangle;
 
 namespace Tests.Problem_Solving.Data_Structures.Stack;
 

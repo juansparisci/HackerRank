@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include="Problem Solving\Algorithms\Dynamic Programming\TheCoinChangeProblem\Analysis\1.png" />
+      <Content Include="Problem Solving\Data Structures\Stack\LargestRectangle\Analysis\1.png" />
+      <Content Include="Problem Solving\Data Structures\Stack\LargestRectangle\Analysis\2.png" />
+    </ItemGroup>
+
 </Project>
